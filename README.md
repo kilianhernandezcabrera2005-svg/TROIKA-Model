@@ -4,10 +4,10 @@ A quantum mechanics and information framework exploring the directional and vibr
 
 ## 🌌 Overview
 
-The **TROIKA model** introduces a quantum system of three harmonic oscillators, each equipped with an internal 3-level degree of freedom (qutrit) encoding discrete spatial directions (\(\vert{}x\rangle, \vert{}y\rangle, \vert{}z\rangle\)). 
+The **TROIKA model** introduces a quantum system of three harmonic oscillators, each equipped with an internal 3-level degree of freedom (qutrit) encoding discrete spatial directions (\(\lvert x \rangle, \lvert y \rangle, \lvert z \rangle\)). 
 
 The fundamental state is cyclically entangled:
-\[\ket{\Psi_{\text{TROIKA}}} = \frac{1}{\sqrt{3}} \left( \ket{xyz} + \ket{yzx} + \ket{zxy} \right)\]
+\[\lvert \Psi_{\text{TROIKA}} \rangle = \frac{1}{\sqrt{3}} \left( \lvert xyz \rangle + \lvert yzx \rangle + \lvert zxy \rangle \right)\]
 
 A central property of this state is the **enforced trihedron**: measuring the direction of any single source collapses the remaining two into an orthogonal triad.
 
@@ -36,14 +36,11 @@ The scripts also implement partial traces over the 1728-dimensional space to com
 
 ## 📂 Repository Structure
 
-* `/src`: Contains the core MATLAB implementation.
-  * `main_fidelity_dynamics.m`: Main script computing fidelity and bosonic populations.
-  * `von_neumann_entropy.m`: Partial trace matrix contractions and entropy evolution.
-  * `wigner_quasiprobability.m`: Wigner-Weyl transform and 3D phase-space plotting.
-* `/paper`: Contains the compiled LaTeX PDF manuscript for arXiv.
+This repository contains almost every source I used in the development of this proyect: MATLAB codes for Wigner distributions, simulations, ... ; more over, I have add both paper's full text in english and spanish.
 
 ---
 **Author:** Kilian Hernández Cabrera  
 **Affiliation:** Universidad de Las Palmas de Gran Canaria (ULPGC)  
 **Academic Year:** 2025–2026  
+
 
