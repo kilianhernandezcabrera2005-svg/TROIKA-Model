@@ -14,7 +14,7 @@ The fundamental state is cyclically entangled and represented as:
 ```
 
 A central property of this state is the **enforced trihedron**: measuring the direction of any single source collapses the remaining two into an orthogonal triad.
-
+<img width="1731" height="908" alt="Esquema operadores reloj modelo TOE" src="https://github.com/user-attachments/assets/6ab41c01-6406-47fd-ba8c-9d7a18a05156" />
 ## 🛠️ Hamiltonian and Formalism
 
 The complete dynamics of the system are governed by the total Hamiltonian:
@@ -74,17 +74,22 @@ The directional trihedron remains highly stable with a fidelity:
 \lambda \sim g
 ```
 Reversible quantum information transfer triggers non-Markovian **Rabi Revivals**, showing an exact anti-correlation between directional fidelity and the creation of vibrational bosons.
+<img width="1250" height="1406" alt="toe_2f_fidelity_occupation" src="https://github.com/user-attachments/assets/a8c51a2c-37c9-41f9-8fe1-362a7df81738" />
 
 The scripts also implement partial traces over the 1728-dimensional space to compute:
 * **Von Neumann Entanglement Entropy:**
 ```math
 S(\hat{\rho}_{dir})
 ```
+<img width="643" height="511" alt="grafica_entropia_von_neumann" src="https://github.com/user-attachments/assets/9e91b72c-0dc3-428d-9a5a-94e8498d0797" />
+
 Quantifying the hybrid mixing.
 * **Wigner Quasiprobability Distributions:**
 ```math
 W(x_1, p_1)
 ```
+<img width="721" height="350" alt="grafica wigner instante 7,5" src="https://github.com/user-attachments/assets/c61cb23f-4386-4eb1-a930-aa41395582b8" />
+
 Revealing quantum negativity wells and Schrödinger cat-like superpositions at the fidelity minima.
 
 ## 📂 Repository Structure
